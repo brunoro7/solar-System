@@ -9,7 +9,7 @@ class App extends React.Component {
       <div className="App">
         <Header />
         <SolarSystem />
-        {/* <PlanetCard /> */}
+        <PlanetCard />
       </div>
     );
   }
