@@ -3,7 +3,7 @@ import React from 'react';
 class Header extends React.Component {
   render() {
     return (
-      <header className="header-content">
+      <header className="headerContent">
         <h1>
           Sistema Solar
         </h1>

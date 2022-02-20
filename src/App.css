@@ -1,3 +1,56 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 .App {
+  background-color: black;
   text-align: center;
+}
+
+.headerContent {
+  background-color: rgb(39, 39, 131);
+  height: 40px;
+  width: 100%;
+}
+
+.boxSolarSytem {
+  background: url('./cssImages/cardMission05.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  padding-bottom: 10px;
+  width: 600px;
+  z-index: 2;
+}
+
+.boxCardsPlanet {
+  align-content: center;
+  color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+  text-decoration: underline;
+  width: 450px;
+}
+
+h1 {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+h2 {
+  color: whitesmoke;
+  text-decoration: underline;
+}
+
+img {
+  margin-bottom: 15px;
+  margin-left: 5px;
+  margin-right: 5px;
+  width: 100px;
 }

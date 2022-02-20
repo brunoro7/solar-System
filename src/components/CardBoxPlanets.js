@@ -5,7 +5,7 @@ import Planets from '../data/planets';
 class CardBoxPlanets extends React.Component {
   render() {
     return (
-      <div className="box-cardsPlanet">
+      <div className="boxCardsPlanet">
         {
           Planets
             .map((sat) => (<PlanetCard
