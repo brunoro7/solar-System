@@ -14,7 +14,6 @@ class CardBoxPlanets extends React.Component {
               planetImage={ sat.image }
             />))
         }
-        <p>até aqui ta indo</p>
       </div>
     );
   }
