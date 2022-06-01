@@ -1,56 +1,149 @@
+/** ======= Format Base ======= */
 * {
   box-sizing: border-box;
   margin: 0;
 }
 
+/** ======= App Content Base ======= */
 .App {
-  background-color: black;
+  background: url('./cssImages/backgroun-App03.gif');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
   text-align: center;
-}
-
-.headerContent {
-  background-color: rgb(39, 39, 131);
-  height: 40px;
   width: 100%;
 }
 
+/** ======= Header Content ======= */
+.headerContent {
+  align-items: center;
+  display: flex;
+  height: 60px;
+  justify-content: center;
+  width: 100%;
+}
+
+h1 {
+  background-color: rgba(3, 18, 24, 0.5);
+  border-radius: 10px;
+  color: whitesmoke;
+  font-size: 28px;
+  opacity: 0.8;
+  padding: 10px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+/** ======= Solar System Content ======= */
 .boxSolarSytem {
   background: url('./cssImages/cardMission05.jpg');
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: cover;
+  border-radius: 200px;
+  display: flex;
+  flex-flow: column wrap;
+  height: 420px;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 20px;
-  padding-bottom: 10px;
-  width: 600px;
-  z-index: 2;
+  margin-top: 10px;
+  opacity: 0.8;
+  padding: 5px;
+  width: 800px;
+}
+
+.titlePlanets {
+  color: red;
+  margin-bottom: 45px;
+  text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .boxCardsPlanet {
   align-content: center;
-  color: whitesmoke;
   display: flex;
-  flex-wrap: wrap;
-  height: 300px;
-  margin-left: auto;
-  margin-right: auto;
-  text-decoration: underline;
-  width: 450px;
+  flex-flow: column wrap;
+  max-height: 400px;
+  width: 800px;
 }
 
-h1 {
+.cardPlanet {
   color: whitesmoke;
+  margin: 10px;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
-h2 {
-  color: whitesmoke;
+.cardPlanet:hover {
+  color: red;
+  cursor: pointer;
+  font-weight: 900;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 img {
+  width: 135px;
+}
+
+/** ======= Missions Content ======= */
+.boxCardsMissions {
+  background: url('./cssImages/missionsBase-03.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-top: 2px dotted whitesmoke;
+  color: whitesmoke;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  min-height: 800px;
+  opacity: 0.75;
+  width: 100%;
+}
+
+.titleMission {
+  border-top: 4px double whitesmoke;
+  color: red;
   margin-bottom: 15px;
-  margin-left: 5px;
-  margin-right: 5px;
-  width: 100px;
+  margin-top: 10px;
+  opacity: 0.7;
+  padding-top: 10px;
+  text-decoration: underline;
+  text-transform: uppercase;
+}
+
+.cardMission {
+  align-self: center;
+  background: url('./cssImages/backgound-Planets-Principa-01l.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 35px;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100px;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 0.6;
+  text-decoration: underline;
+  width: 230px;
+}
+
+.cardMission:hover {
+  align-self: center;
+  background: url('./cssImages/backgound-Planets-Principa-01l.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 35px;
+  color: red;
+  cursor: pointer;
+  display: flex;
+  flex-flow: column wrap;
+  height: 100px;
+  justify-content: space-evenly;
+  margin-left: 10px;
+  margin-right: 10px;
+  opacity: 1;
+  text-decoration: underline;
+  width: 230px;
 }

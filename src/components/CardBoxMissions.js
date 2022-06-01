@@ -5,7 +5,8 @@ import Missions from '../data/missions';
 class CardBoxMissions extends React.Component {
   render() {
     return (
-      <div className="box-cardsMissions">
+      <div className="boxCardsMissions">
+
         {
           Missions
             .map((travel) => (<MissionCard
@@ -16,6 +17,7 @@ class CardBoxMissions extends React.Component {
               destination={ travel.destination }
             />))
         }
+
       </div>
     );
   }
